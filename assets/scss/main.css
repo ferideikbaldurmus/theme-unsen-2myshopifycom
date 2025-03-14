@@ -10,10 +10,34 @@ nav {
 nav .navbar {
   position: absolute;
 }
+nav .navbar .nav-logo {
+  width: 60px;
+}
+nav .navbar .nav-logo img {
+  width: 100%;
+}
 nav .navbar .nav-categories ul li {
   list-style-type: none;
 }
 nav .navbar .nav-categories ul li a {
   text-decoration: none;
   color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+nav .navbar .nav-categories ul li a .badge {
+  position: absolute;
+  padding: 3px 6px;
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+nav .navbar .nav-categories ul li a .badge-green {
+  background-color: #34C134;
+}
+nav .navbar .nav-categories ul li a .badge-red {
+  background-color: #FF3A3A;
 }/*# sourceMappingURL=main.css.map */
