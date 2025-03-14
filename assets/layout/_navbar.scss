@@ -1,5 +1,16 @@
 nav{
+    position: relative;
+    z-index: 1000;
+    .navbar{
+        position: absolute;
+        .nav-categories ul li {
+            list-style-type: none; 
+         a{
+            text-decoration: none;
+            color: white;
+         }
+          }
+    }
 
 
-  
 }

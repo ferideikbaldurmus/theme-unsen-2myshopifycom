@@ -3,5 +3,5 @@
     padding: 0px;
 }
 
-@use '../layout/navbar';
+@import '../layout/navbar';
 @import '../layout/hero';

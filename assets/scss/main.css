@@ -1,15 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 nav {
   position: relative;
-}
-nav .nav-logo figure {
-  width: 75px;
-}
-nav .nav-logo figure img {
-  width: 100%;
+  z-index: 1000;
 }
 nav .navbar {
   position: absolute;
-  width: 100%;
-  background-color: transparent;
-  z-index: 1000;
+}
+nav .navbar .nav-categories ul li {
+  list-style-type: none;
+}
+nav .navbar .nav-categories ul li a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
