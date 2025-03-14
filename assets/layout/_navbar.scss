@@ -1,16 +1,16 @@
 nav {
     position: relative;
-    z-index: 1000;
+    z-index: 1;
 
     .navbar {
         position: absolute;
-
+        margin-top: -20px;
         .nav-logo {
             width: 60px;
 
             img {
                 width: 100%;
-                
+
             }
         }
 
@@ -42,6 +42,22 @@ nav {
                     background-color: #FF3A3A;
                 }
 
+            }
+        }
+
+        .nav-icons {
+            color: white;
+.badge{
+    position: absolute;
+    margin-top: -10px;
+
+}
+            .nav-icons-badge {
+                font-family: 'Jost', sans-serif;
+                font-size: 10px;
+                background-color: white;
+                font-weight: 400;
+                color: black;
             }
         }
     }

@@ -5,10 +5,11 @@
 
 nav {
   position: relative;
-  z-index: 1000;
+  z-index: 1;
 }
 nav .navbar {
   position: absolute;
+  margin-top: -20px;
 }
 nav .navbar .nav-logo {
   width: 60px;
@@ -40,4 +41,18 @@ nav .navbar .nav-categories ul li a .badge-green {
 }
 nav .navbar .nav-categories ul li a .badge-red {
   background-color: #FF3A3A;
+}
+nav .navbar .nav-icons {
+  color: white;
+}
+nav .navbar .nav-icons .badge {
+  position: absolute;
+  margin-top: -10px;
+}
+nav .navbar .nav-icons .nav-icons-badge {
+  font-family: "Jost", sans-serif;
+  font-size: 10px;
+  background-color: white;
+  font-weight: 400;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
