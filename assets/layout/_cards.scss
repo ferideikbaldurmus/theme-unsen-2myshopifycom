@@ -24,6 +24,10 @@
         position: relative;
         .basic-collection-details{
             position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
         }
         .play-button{
       
@@ -51,4 +55,20 @@
 
 
 }
-.e-mail-section
+.e-mail-section{
+    width: 100%;
+    background-color: #FEE8EA;
+    // padding: 30px;
+    .e-mail-details{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        h1{
+            font-family: 'Jost', serif;
+            font-size: 80px;
+        } 
+    }
+  
+}
