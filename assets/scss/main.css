@@ -82,4 +82,30 @@ nav .navbar .nav-icons .nav-icons-badge {
   transform: translate(-50%, -50%);
   width: 100%;
   font-family: "Jost", sans-serif;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .carousel-inner .carousel-item .carousel-caption h1 {
+  font-size: 80px;
+  font-family: "Cormorant", serif;
+}
+.hero .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  line-height: 86px;
+}
+.hero .carousel-inner .carousel-item .carousel-caption p:last-child {
+  font-size: 20px;
+}
+.hero .carousel-inner .carousel-item .carousel-caption span {
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+.hero .carousel-inner .carousel-item .carousel-caption span:hover {
+  background-color: #58B7A3;
 }/*# sourceMappingURL=main.css.map */

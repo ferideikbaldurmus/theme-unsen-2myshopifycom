@@ -1,22 +1,25 @@
 .hero {
     .carousel-indicators [data-bs-target] {
-        width: 10px; 
-        height: 10px; 
-        border-radius: 50%; 
-        background-color: #fff; 
-        opacity: 0.5; 
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.5;
         transition: opacity 0.3s ease-in-out;
     }
-    
+
     .carousel-indicators .active {
-        opacity: 1; 
-        background-color: #fff transparent; 
+        opacity: 1;
+        background-color: #fff transparent;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         position: relative;
-        .carousel-item{
+
+        .carousel-item {
             position: relative;
-            .carousel-caption{
+
+            .carousel-caption {
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -24,6 +27,36 @@
                 width: 100%;
                 // font-family: $font-family-jost;
                 font-family: 'Jost', sans-serif;
+                object-fit: cover;
+
+                h1 {
+                    font-size: 80px;
+                    font-family: 'Cormorant', serif;
+                }
+
+                p {
+                    font-size: 14px;
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 300;
+                    line-height: 86px;
+                }
+
+                p:last-child {
+                    font-size: 20px;
+                }
+
+                span {
+                    background-color: black;
+                    padding: 10px 30px;
+                    font-size: 14px;
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 300;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #58B7A3;
+                    }
+                }
             }
         }
     }
