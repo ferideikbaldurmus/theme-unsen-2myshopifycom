@@ -96,16 +96,20 @@
         position: relative;
         margin: 0;
         padding: 0;
+        .product-card{
+            position: relative;
+            .product-image{
+               img{
+                width: 100%;
+               }
+              
+            }
+        }
      .product-cards-text{
         position: absolute;
+ 
      }
-        .product-image{
-            max-width: 1000px;
-           img{
-            width: 100%;
-           }
-          
-        }
+   
     }
 
     
