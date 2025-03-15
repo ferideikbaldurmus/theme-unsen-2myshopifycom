@@ -61,3 +61,52 @@
         }
     }
 }
+
+.product-carousel {
+
+    .product-item {
+        p {
+            font-size: 12px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+        }
+
+        img {
+            border: 2px solid #EEEEEE;
+            border-radius: 50%;
+            object-fit: cover;
+            width: 120px;
+            height: 120px;
+            cursor: pointer;
+            transition: all 1s;
+
+            &:hover {
+                border: 2px solid #58B7A3;
+                transition: all 1s;
+            }
+        }
+     
+    }
+    .carousel-control-prev{
+        .carousel-control-prev-icon{
+         color: #222222;
+        }
+    }
+    .product-cards{
+        position: relative;
+        margin: 0;
+        padding: 0;
+     .product-cards-text{
+        position: absolute;
+     }
+        .product-image{
+            max-width: 1000px;
+           img{
+            width: 100%;
+           }
+          
+        }
+    }
+
+    
+}

@@ -108,4 +108,41 @@ nav .navbar .nav-icons .nav-icons-badge {
 }
 .hero .carousel-inner .carousel-item .carousel-caption span:hover {
   background-color: #58B7A3;
+}
+
+.product-carousel .product-item p {
+  font-size: 12px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+.product-carousel .product-item img {
+  border: 2px solid #EEEEEE;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.product-carousel .product-item img:hover {
+  border: 2px solid #58B7A3;
+  transition: all 1s;
+}
+.product-carousel .carousel-control-prev .carousel-control-prev-icon {
+  color: #222222;
+}
+.product-carousel .product-cards {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.product-carousel .product-cards .product-cards-text {
+  position: absolute;
+}
+.product-carousel .product-cards .product-image {
+  max-width: 1000px;
+}
+.product-carousel .product-cards .product-image img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
