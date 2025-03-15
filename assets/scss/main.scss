@@ -3,8 +3,13 @@
     padding: 0px;
 }
 
-@import '../layout/navbar';
-@import '../layout/hero';
+@import './layout/navbar';
+@import './layout/hero';
+@import './layout/cards';
+
+// @import '../layout/navbar';
+// @import '../layout/hero'; 
+
 // @import './layout/grid';
 
 // @import './abstracts/variables';
