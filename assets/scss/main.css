@@ -55,4 +55,30 @@ nav .navbar .nav-icons .nav-icons-badge {
   background-color: white;
   font-weight: 400;
   color: black;
+}
+
+.hero .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+.hero .carousel-indicators .active {
+  opacity: 1;
+  background-color: #fff transparent;
+}
+.hero .carousel-inner {
+  position: relative;
+}
+.hero .carousel-inner .carousel-item {
+  position: relative;
+}
+.hero .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
