@@ -5,6 +5,7 @@ nav {
     .navbar {
         position: absolute;
         margin-top: -20px;
+
         .nav-logo {
             width: 60px;
 
@@ -20,6 +21,7 @@ nav {
             a {
                 text-decoration: none;
                 color: white;
+                // font-family: $font-family-jost;
                 font-family: 'Jost', sans-serif;
                 font-size: 14px;
                 font-weight: 400;
@@ -47,12 +49,15 @@ nav {
 
         .nav-icons {
             color: white;
-.badge{
-    position: absolute;
-    margin-top: -10px;
 
-}
+            .badge {
+                position: absolute;
+                margin-top: -10px;
+
+            }
+
             .nav-icons-badge {
+                // font-family: $font-family-jost;
                 font-family: 'Jost', sans-serif;
                 font-size: 10px;
                 background-color: white;
