@@ -148,6 +148,9 @@ nav .navbar .nav-icons .nav-icons-badge {
 .product-carousel .product-cards .product-card .product-image img {
   width: 100%;
 }
+.product-carousel .product-cards .product-card .product-image .product-cards-text {
+  position: absolute;
+}
 .product-carousel .product-cards .product-card .product-image .product-cards-text p {
   font-family: "Cormorant", serif;
 }
