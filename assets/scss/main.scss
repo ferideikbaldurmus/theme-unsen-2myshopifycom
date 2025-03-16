@@ -1,17 +1,17 @@
-@import './layout/navbar';
-@import './layout/hero';
-@import './layout/cards';
+
+@import './abstracts/variables';
+@import './abstracts/functions';
+@import './abstracts/mixins';
+
+
 @import './base/reset';
+@import './base/typography';
 
-// @import '../layout/navbar';
-// @import '../layout/hero'; 
-
-// @import './layout/grid';
-
-// @import './abstracts/variables';
-// @import './abstracts/functions';
-// @import './abstracts/mixins';
+ @import './layout/navbar';
+ @import './layout/hero'; 
+ @import './layout/grid';
+ @import './layout/cards';
 
 
-// @import './base/reset';
-// @import './base/typography';
+
+

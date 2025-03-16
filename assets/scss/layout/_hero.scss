@@ -65,6 +65,7 @@
 .product-carousel {
 
     .product-item {
+        
         p {
             font-size: 12px;
             font-family: 'Jost', sans-serif;
@@ -74,6 +75,8 @@
         img {
             border: 2px solid #EEEEEE;
             border-radius: 50%;
+            // resme border verilmez
+            // ve sabit genişlik
             object-fit: cover;
             width: 120px;
             height: 120px;

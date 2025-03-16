@@ -146,4 +146,66 @@ nav .navbar .nav-icons .nav-icons-badge {
 .product-carousel .product-cards .product-cards-text {
   position: absolute;
   font-family: "Cormorant", serif;
+}
+
+.cards .cards-carousel h1 {
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #222222;
+}
+.cards .cards-carousel .new-arrivals-cards .new-arrivals-card-item {
+  background-color: #F8F8F8;
+  width: 150px;
+  height: 200px;
+}
+
+.basic-collection figure, .basic-collection img {
+  width: 100%;
+  height: auto;
+}
+.basic-collection .basic-collection-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.basic-collection .play-button {
+  background-color: #F87C8A;
+  width: 70px;
+  height: 70px;
+}
+.basic-collection .play-button:hover {
+  background-color: #58B7A3;
+}
+.basic-collection span {
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+.basic-collection span:hover {
+  background-color: #58B7A3;
+}
+.basic-collection .basic-collection-text {
+  position: relative;
+}
+
+.e-mail-section {
+  width: 100%;
+  background-color: #FEE8EA;
+}
+.e-mail-section .e-mail-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.e-mail-section .e-mail-details h1 {
+  font-family: "Jost", serif;
+  font-size: 80px;
 }/*# sourceMappingURL=main.css.map */

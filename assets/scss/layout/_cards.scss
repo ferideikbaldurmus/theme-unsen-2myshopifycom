@@ -20,36 +20,38 @@
         width: 100%;
         height: auto;
     }
+    .basic-collection-details{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .play-button{
+      
+        background-color: #F87C8A;
+        width: 70px;
+        height: 70px;
+        &:hover {
+            background-color: #58B7A3;
+        }
+    }
+    span {
+        background-color: black;
+        padding: 10px 30px;
+        font-size: 14px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #58B7A3;
+        }
+}
     .basic-collection-text{
         position: relative;
-        .basic-collection-details{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%;
-        }
-        .play-button{
-      
-            background-color: #F87C8A;
-            width: 70px;
-            height: 70px;
-            &:hover {
-                background-color: #58B7A3;
-            }
-        }
-        span {
-            background-color: black;
-            padding: 10px 30px;
-            font-size: 14px;
-            font-family: 'Jost', sans-serif;
-            font-weight: 300;
-            cursor: pointer;
     
-            &:hover {
-                background-color: #58B7A3;
-            }
-    }
+
     }
 
 
