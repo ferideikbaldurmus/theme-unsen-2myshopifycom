@@ -1,77 +1,89 @@
-.cards{
-    .cards-carousel{
-        h1{
-            font-family: 'Cormorant', serif;  
-            font-weight: 400;
-            font-size: 30px;
-            color: #222222;
-        }
-        .new-arrivals-cards{
-            .new-arrivals-card-item{
-                background-color: #F8F8F8;
-                width: 150px;
-                height: 200px;
-            }
-        }
-    }
-}
-.basic-collection{
-    figure, img{
-        width: 100%;
-        height: auto;
-    }
-    .basic-collection-details{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-    }
-    .play-button{
-      
-        background-color: #F87C8A;
-        width: 70px;
-        height: 70px;
-        &:hover {
-            background-color: #58B7A3;
-        }
-    }
-    span {
-        background-color: black;
-        padding: 10px 30px;
-        font-size: 14px;
-        font-family: 'Jost', sans-serif;
-        font-weight: 300;
-        cursor: pointer;
+  .cards-carousel {
+      .cards-carousel-title {
+          h1 {
+              font-family: 'Cormorant', serif;
+              font-size: 30px;
+              font-weight: 100;
+              color: #222222;
+          }
+      }
 
-        &:hover {
-            background-color: #58B7A3;
-        }
-}
-    .basic-collection-text{
-        position: relative;
-    
+      .new-arrivals-cards {
+          .new-arrivals-card-item {
+              background-color: #F8F8F8;
+              width: 150px;
+              height: 200px;
+          }
+      }
+  }
 
-    }
+  .basic-collection {
+
+      figure,
+      img {
+          width: 100%;
+          height: auto;
+      }
+
+      .basic-collection-details {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+      }
+
+      .play-button {
+
+          background-color: #F87C8A;
+          width: 70px;
+          height: 70px;
+
+          &:hover {
+              background-color: #58B7A3;
+          }
+      }
+
+      span {
+          background-color: black;
+          padding: 10px 30px;
+          font-size: 14px;
+          font-family: 'Jost', sans-serif;
+          font-weight: 300;
+          cursor: pointer;
+
+          &:hover {
+              background-color: #58B7A3;
+          }
+      }
+
+      .basic-collection-text {
+          position: relative;
+
+
+      }
 
 
 
-}
-.e-mail-section{
-    width: 100%;
-    background-color: #FEE8EA;
-    position: relative;
-    height: 400px;
-    .e-mail-details{
-position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        h1{
-            font-family: 'Jost', serif;
-            font-size: 80px;
-        } 
-    }
-  
-}
+  }
+
+  .e-mail-section {
+      width: 100%;
+      background-color: #FEE8EA;
+      position: relative;
+      height: 400px;
+
+      .e-mail-details {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+
+          h1 {
+              font-family: 'Jost', serif;
+              font-size: 80px;
+          }
+      }
+
+  }

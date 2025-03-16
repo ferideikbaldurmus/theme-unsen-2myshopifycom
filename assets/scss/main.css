@@ -151,19 +151,20 @@ nav .navbar .nav-icons .nav-icons-badge {
   width: 100%;
 }
 
-.cards .cards-carousel h1 {
+.cards-carousel .cards-carousel-title h1 {
   font-family: "Cormorant", serif;
-  font-weight: 400;
   font-size: 30px;
+  font-weight: 100;
   color: #222222;
 }
-.cards .cards-carousel .new-arrivals-cards .new-arrivals-card-item {
+.cards-carousel .new-arrivals-cards .new-arrivals-card-item {
   background-color: #F8F8F8;
   width: 150px;
   height: 200px;
 }
 
-.basic-collection figure, .basic-collection img {
+.basic-collection figure,
+.basic-collection img {
   width: 100%;
   height: auto;
 }
