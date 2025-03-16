@@ -135,17 +135,23 @@ nav .navbar .nav-icons .nav-icons-badge {
   color: #222222;
 }
 .product-carousel .product-cards {
+  position: relative;
   margin: 0;
   padding: 0;
 }
+.product-carousel .product-cards .product-card {
+  position: relative;
+}
 .product-carousel .product-cards .product-card .product-image {
-  width: 100px;
-  height: 100px;
+  position: relative;
 }
 .product-carousel .product-cards .product-card .product-image img {
   width: 100%;
 }
-.product-carousel .product-cards .product-cards-text {
+.product-carousel .product-cards .product-card .product-image .product-cards-text p {
+  font-family: "Cormorant", serif;
+}
+.product-carousel .product-cards .product-card .product-image .product-cards-text h2 {
   font-family: "Cormorant", serif;
 }
 
