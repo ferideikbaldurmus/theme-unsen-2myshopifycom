@@ -197,6 +197,8 @@ nav .navbar .nav-icons .nav-icons-badge {
 .e-mail-section {
   width: 100%;
   background-color: #FEE8EA;
+  position: relative;
+  height: 400px;
 }
 .e-mail-section .e-mail-details {
   position: absolute;

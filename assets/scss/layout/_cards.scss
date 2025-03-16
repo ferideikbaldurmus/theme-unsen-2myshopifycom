@@ -60,9 +60,10 @@
 .e-mail-section{
     width: 100%;
     background-color: #FEE8EA;
-    // padding: 30px;
+    position: relative;
+    height: 400px;
     .e-mail-details{
-        position: absolute;
+position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
