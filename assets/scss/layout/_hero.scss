@@ -24,13 +24,15 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                width: fit-content;
                 width: 100%;
                 // font-family: $font-family-jost;
                 font-family: 'Jost', sans-serif;
                 object-fit: cover;
 
                 h1 {
-                    font-size: 80px;
+
+                    font-size: 60px;
                     font-family: 'Cormorant', serif;
                 }
 
@@ -65,7 +67,7 @@
 .product-carousel {
 
     .product-item {
-        
+
         p {
             font-size: 12px;
             font-family: 'Jost', sans-serif;
@@ -88,32 +90,37 @@
                 transition: all 1s;
             }
         }
-     
+
     }
-    .carousel-control-prev{
-        .carousel-control-prev-icon{
-         color: #222222;
+
+    .carousel-control-prev {
+        .carousel-control-prev-icon {
+            color: #222222;
         }
     }
-    .product-cards{
+
+    .product-cards {
         position: relative;
         margin: 0;
         padding: 0;
-        .product-card{
+
+        .product-card {
             position: relative;
-            .product-image{
-               img{
-                width: 100%;
-               }
-              
+
+            .product-image {
+                img {
+                    width: 100%;
+                }
+
             }
         }
-     .product-cards-text{
-        position: absolute;
-        font-family: 'Cormorant', serif;
-     }
-   
+
+        .product-cards-text {
+            position: absolute;
+            font-family: 'Cormorant', serif;
+        }
+
     }
 
-    
+
 }
