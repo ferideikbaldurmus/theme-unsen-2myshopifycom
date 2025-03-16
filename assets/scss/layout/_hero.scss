@@ -100,28 +100,29 @@
     }
 
     .product-cards {
-     position: relative;
+
         margin: 0;
         padding: 0;
 
         .product-card {
-     position: relative;
+
 
             .product-image {
-              position: relative;
+                .product-cards-text {
+                    position: absolute;
+                     p{
+          
+                       font-family: 'Cormorant', serif;
+                     }
+                     h2{
+                       font-family: 'Cormorant', serif;
+                     }
+                       }
                 img {
                     width: 100%;
                 }
 
-                .product-cards-text {
-             position: absolute;
-              p{
-                font-family: 'Cormorant', serif;
-              }
-              h2{
-                font-family: 'Cormorant', serif;
-              }
-                }
+             
             }
         }
 

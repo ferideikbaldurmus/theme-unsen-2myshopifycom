@@ -135,18 +135,8 @@ nav .navbar .nav-icons .nav-icons-badge {
   color: #222222;
 }
 .product-carousel .product-cards {
-  position: relative;
   margin: 0;
   padding: 0;
-}
-.product-carousel .product-cards .product-card {
-  position: relative;
-}
-.product-carousel .product-cards .product-card .product-image {
-  position: relative;
-}
-.product-carousel .product-cards .product-card .product-image img {
-  width: 100%;
 }
 .product-carousel .product-cards .product-card .product-image .product-cards-text {
   position: absolute;
@@ -156,6 +146,9 @@ nav .navbar .nav-icons .nav-icons-badge {
 }
 .product-carousel .product-cards .product-card .product-image .product-cards-text h2 {
   font-family: "Cormorant", serif;
+}
+.product-carousel .product-cards .product-card .product-image img {
+  width: 100%;
 }
 
 .cards .cards-carousel h1 {
