@@ -100,14 +100,16 @@
     }
 
     .product-cards {
-        position: relative;
+     
         margin: 0;
         padding: 0;
 
         .product-card {
-            position: relative;
+       
 
             .product-image {
+               width: 100px;
+               height: 100px;
                 img {
                     width: 100%;
                 }
@@ -116,7 +118,7 @@
         }
 
         .product-cards-text {
-            position: absolute;
+      
             font-family: 'Cormorant', serif;
         }
 

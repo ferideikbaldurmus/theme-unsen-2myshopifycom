@@ -135,18 +135,17 @@ nav .navbar .nav-icons .nav-icons-badge {
   color: #222222;
 }
 .product-carousel .product-cards {
-  position: relative;
   margin: 0;
   padding: 0;
 }
-.product-carousel .product-cards .product-card {
-  position: relative;
+.product-carousel .product-cards .product-card .product-image {
+  width: 100px;
+  height: 100px;
 }
 .product-carousel .product-cards .product-card .product-image img {
   width: 100%;
 }
 .product-carousel .product-cards .product-cards-text {
-  position: absolute;
   font-family: "Cormorant", serif;
 }
 
