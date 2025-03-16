@@ -163,19 +163,34 @@ nav .navbar .nav-icons .nav-icons-badge {
   height: 200px;
 }
 
+.basic-collection {
+  position: relative;
+}
 .basic-collection figure,
 .basic-collection img {
   width: 100%;
   height: auto;
 }
 .basic-collection .basic-collection-details {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+.basic-collection .basic-collection-details .basic-collection-title {
+  font-family: "Cormorant", serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+}
+.basic-collection .basic-collection-details .basic-collection-title h1 {
+  font-weight: 100;
 }
 .basic-collection .play-button {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #F87C8A;
   width: 70px;
   height: 70px;
@@ -190,12 +205,15 @@ nav .navbar .nav-icons .nav-icons-badge {
   font-family: "Jost", sans-serif;
   font-weight: 300;
   cursor: pointer;
+  color: white;
 }
 .basic-collection span:hover {
   background-color: #58B7A3;
+  color: white;
 }
 .basic-collection .basic-collection-text {
-  position: relative;
+  position: absolute;
+  margin-left: 100px;
 }
 
 .e-mail-section {
@@ -204,14 +222,13 @@ nav .navbar .nav-icons .nav-icons-badge {
   position: relative;
   height: 400px;
 }
+.e-mail-section .input-group {
+  width: 700px;
+}
 .e-mail-section .e-mail-details {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
 }
 .e-mail-section .e-mail-details h1 {
-  font-family: "Jost", serif;
-  font-size: 80px;
+  font-family: "Cormorant", serif;
+  font-size: 30px;
 }/*# sourceMappingURL=main.css.map */

@@ -18,6 +18,7 @@
   }
 
   .basic-collection {
+      position: relative;
 
       figure,
       img {
@@ -26,18 +27,35 @@
       }
 
       .basic-collection-details {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          position: relative;
+          //   top: 50%;
+          //   left: 50%;
+          //   transform: translate(-50%, -50%);
           width: 100%;
+          z-index: 3;
+
+          .basic-collection-title {
+              font-family: 'Cormorant', serif;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+
+              h1 {
+                  font-weight: 100;
+              }
+          }
       }
 
       .play-button {
-
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          transform: translate(-50%, -50%);
           background-color: #F87C8A;
           width: 70px;
           height: 70px;
+         
 
           &:hover {
               background-color: #58B7A3;
@@ -51,14 +69,17 @@
           font-family: 'Jost', sans-serif;
           font-weight: 300;
           cursor: pointer;
+          color: white;
 
           &:hover {
               background-color: #58B7A3;
+              color: white;
           }
       }
 
       .basic-collection-text {
-          position: relative;
+        position: absolute;
+        margin-left: 100px;
 
 
       }
@@ -73,16 +94,20 @@
       position: relative;
       height: 400px;
 
+      .input-group {
+          width: 700px;
+      }
+
       .e-mail-details {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+          //   position: absolute;
+          //   top: 50%;
+          //   left: 50%;
+          //   transform: translate(-50%, -50%);
           width: 100%;
 
           h1 {
-              font-family: 'Jost', serif;
-              font-size: 80px;
+              font-family: 'Cormorant', serif;
+              font-size: 30px;
           }
       }
 
