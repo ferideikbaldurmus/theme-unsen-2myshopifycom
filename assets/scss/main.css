@@ -112,6 +112,9 @@ nav .navbar .nav-icons .nav-icons-badge {
   background-color: #58B7A3;
 }
 
+.product-carousel span {
+  color: black;
+}
 .product-carousel .product-item p {
   font-size: 12px;
   font-family: "Jost", sans-serif;
@@ -131,24 +134,30 @@ nav .navbar .nav-icons .nav-icons-badge {
   border: 2px solid #58B7A3;
   transition: all 1s;
 }
-.product-carousel .carousel-control-prev .carousel-control-prev-icon {
-  color: #222222;
+.product-carousel .button-carousel-icon .carousel-control-prev-icon,
+.product-carousel .button-carousel-icon .carousel-control-next-icon {
+  background-image: none;
 }
-.product-carousel .product-cards {
-  margin: 0;
-  padding: 0;
+.product-carousel .button-carousel-icon .carousel-control-prev {
+  background-image: none !important;
 }
-.product-carousel .product-cards .product-card .product-image .product-cards-text {
-  position: absolute;
+.product-carousel .button-carousel-icon .carousel-control-prev-icon {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgLi4uIC0tPjxzdmcgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2IDdMOS41OCAxMi4zNzM2QzkuNDAyIDEyLjU3NyA5LjQwMiAxMi45MjMgOS41OCAxMy4xMjZMMTYgMTkiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
 }
-.product-carousel .product-cards .product-card .product-image .product-cards-text p {
-  font-family: "Cormorant", serif;
-}
-.product-carousel .product-cards .product-card .product-image .product-cards-text h2 {
-  font-family: "Cormorant", serif;
-}
-.product-carousel .product-cards .product-card .product-image img {
-  width: 100%;
+.product-carousel .button-carousel-icon .carousel-control-next-icon {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGQ9Ik04IDVMMTUuNTcgMTEuNjIzN0MxNS43OTc2IDExLjgyMjkgMTUuNzk3NiAxMi4xNzcxIDE1LjU3IDEyLjM3NjNMOCAxOSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPC9zdmc+");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
 }
 
 .cards-carousel .cards-carousel-title h1 {
