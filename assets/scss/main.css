@@ -377,4 +377,36 @@ nav .navbar .nav-icons .nav-icons-badge {
 .e-mail-section .e-mail-details h1 {
   font-family: "Cormorant", serif;
   font-size: 30px;
+}
+
+.insta-section {
+  padding: 3rem 0;
+}
+.insta-section .insta-title {
+  font-family: "Cormorant", serif;
+  font-size: 30px;
+}
+.insta-section .insta-subtitle {
+  color: #868686;
+  font-size: 16px;
+}
+.insta-section .insta-img-wrapper {
+  width: 100%;
+}
+.insta-section .insta-img {
+  flex: 1;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0;
+}
+.insta-section .carousel-control-prev,
+.insta-section .carousel-control-next {
+  filter: invert(100%);
+  width: 5%;
+}
+@media (max-width: 768px) {
+  .insta-section .insta-img {
+    height: 120px;
+  }
 }/*# sourceMappingURL=main.css.map */

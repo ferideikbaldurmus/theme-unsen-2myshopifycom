@@ -295,3 +295,42 @@
     }
 
 }
+
+
+.insta-section {
+    padding: 3rem 0;
+  
+    .insta-title {
+      font-family: 'Cormorant', serif;
+      font-size: 30px;
+    }
+  
+    .insta-subtitle {
+      color: #868686;
+      font-size: 16px;
+    }
+  
+    .insta-img-wrapper {
+      width: 100%;
+    }
+  
+    .insta-img {
+      flex: 1;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 0; 
+    }
+  
+    .carousel-control-prev,
+    .carousel-control-next {
+      filter: invert(100%);
+      width: 5%;
+    }
+  
+    @media (max-width: 768px) {
+      .insta-img {
+        height: 120px;
+      }
+    }
+  }
+  
