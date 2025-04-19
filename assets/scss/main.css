@@ -160,16 +160,100 @@ nav .navbar .nav-icons .nav-icons-badge {
   display: inline-block;
 }
 
-.cards-carousel .cards-carousel-title h1 {
-  font-family: "Cormorant", serif;
-  font-size: 30px;
-  font-weight: 100;
-  color: #222222;
+.product-cards .custom-banner {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: hidden;
+  height: 300px;
 }
-.cards-carousel .new-arrivals-cards .new-arrivals-card-item {
-  background-color: #F8F8F8;
-  width: 150px;
-  height: 200px;
+.product-cards .custom-banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.product-cards .custom-banner .text-side {
+  position: absolute;
+  left: 20px;
+  bottom: 40px;
+  color: #000000;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  z-index: 2;
+  max-width: 70%;
+}
+.product-cards .custom-banner .text-side p,
+.product-cards .custom-banner .text-side h3 {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+.product-cards .custom-banner .text-side h3 {
+  font-family: "Cormorant", serif;
+  font-weight: 100;
+}
+.product-cards .custom-banner .text-side .bottom-text {
+  position: relative;
+  font-size: 14px;
+}
+.product-cards .custom-banner .text-side .bottom-text .underline {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #000000;
+  margin-top: 2px;
+}
+
+.new-arrivals {
+  font-family: "Cormorant", serif;
+}
+.new-arrivals #carouselExampleIndicators .carousel-inner {
+  padding: 2rem 0;
+}
+.new-arrivals #carouselExampleIndicators .carousel-inner .carousel-item .row {
+  justify-content: center;
+  gap: 10px;
+}
+.new-arrivals #carouselExampleIndicators .carousel-inner .carousel-item .custom-card {
+  width: 200px;
+  height: 220px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.new-arrivals #carouselExampleIndicators .carousel-inner .carousel-item .custom-card:hover {
+  transform: scale(1.05);
+}
+.new-arrivals #carouselExampleIndicators .carousel-inner .carousel-item .custom-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+.new-arrivals #carouselExampleIndicators .carousel-control-prev,
+.new-arrivals #carouselExampleIndicators .carousel-control-next {
+  display: none;
+}
+.new-arrivals #carouselExampleIndicators .carousel-indicators {
+  bottom: -30px;
+}
+.new-arrivals #carouselExampleIndicators .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  border: none;
+  margin: 0 4px;
+  transition: background-color 0.3s ease;
+}
+.new-arrivals #carouselExampleIndicators .carousel-indicators button.active {
+  background-color: #000;
 }
 
 .basic-collection {

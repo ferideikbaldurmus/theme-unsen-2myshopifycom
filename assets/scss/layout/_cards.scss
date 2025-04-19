@@ -1,21 +1,142 @@
-  .cards-carousel {
-      .cards-carousel-title {
-          h1 {
-              font-family: 'Cormorant', serif;
-              font-size: 30px;
-              font-weight: 100;
-              color: #222222;
-          }
-      }
+//   .cards-carousel {
+//       .cards-carousel-title {
+//           h3 {
+//               font-family: 'Cormorant', serif;
+//               font-size: 30px;
+//               font-weight: 100;
+//               color: #222222;
+//           }
+//       }
 
-      .new-arrivals-cards {
-          .new-arrivals-card-item {
-              background-color: #F8F8F8;
-              width: 150px;
-              height: 200px;
-          }
-      }
-  }
+//       .new-arrivals-cards {
+//           .new-arrivals-card-item {
+//               background-color: #F8F8F8;
+//               width: 150px;
+//               height: 200px;
+//           }
+//       }
+//   }
+
+// .new-arrivals {
+//     padding: 3rem 0;
+  
+//     h2 {
+//       font-size: 2rem;
+//       text-align: center;
+//       margin-bottom: 2rem;
+//       font-weight: 600;
+//     }
+  
+//     .carousel {
+//       position: relative;
+  
+//       .carousel-inner {
+//         .carousel-item {
+//           .card {
+//             border: none;
+//             text-align: left;
+ 
+//             img {
+//               width: 100%;
+//               border-radius: 0.5rem;
+//               margin-bottom: 1rem;
+           
+//             }
+  
+//             .card-body {
+//               padding: 0;
+  
+//               p {
+//                 font-size: 0.85rem;
+//                 margin-bottom: 0.25rem;
+//                 color: #777;
+//               }
+  
+//               h5 {
+//                 font-size: 1rem;
+//                 font-weight: 600;
+//                 margin-bottom: 0.25rem;
+//               }
+  
+//               .card-line {
+//                 width: 40px;
+//                 height: 2px;
+//                 background-color: #000;
+//                 margin-top: 0.5rem;
+//               }
+//             }
+//           }
+//         }
+//       }
+
+   
+     
+//     }
+//   }
+
+.new-arrivals{
+             font-family: 'Cormorant', serif;
+             #carouselExampleIndicators {
+                .carousel-inner {
+                  padding: 2rem 0;
+              
+                  .carousel-item {
+                    .row {
+                      justify-content: center;
+                      gap: 10px;
+                    }
+              
+                    .custom-card {
+                      width: 200px; 
+                      height: 220px; 
+                      background-color: #f5f5f5; 
+                      border-radius: 10px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      transition: transform 0.3s ease;
+              
+                      &:hover {
+                        transform: scale(1.05);
+                      }
+              
+                      img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 8px;
+                      }
+                    }
+                  }
+                }
+              
+                // SAĞ SOL BUTONLARI GİZLEME
+                .carousel-control-prev,
+                .carousel-control-next {
+                  display: none;
+                }
+              
+                // GÖSTERGE DAİRELERİ
+                .carousel-indicators {
+                  bottom: -30px;
+              
+                  button {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: #bbb;
+                    border: none;
+                    margin: 0 4px;
+                    transition: background-color 0.3s ease;
+              
+                    &.active {
+                      background-color: #000;
+                    }
+                  }
+                }
+              }
+              
+}
 
   .basic-collection {
       position: relative;
