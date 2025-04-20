@@ -1,0 +1,129 @@
+.footer {
+    background: #fff;
+    padding: 4rem 2rem;
+    font-family: 'Jost', sans-serif;
+    color: #000;
+    // border-top: 1px solid #eee;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+
+    .footer-newsletter {
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            border-bottom: 2px solid #000;
+            max-width: 400px;
+            padding-bottom: 0.5rem;
+
+            input {
+                flex: 1;
+                border: none;
+                outline: none;
+                font-size: 0.8rem;
+                color: #ACACAC;
+                background: transparent;
+
+                &::placeholder {
+                    color: #ACACAC;
+                }
+            }
+
+            button {
+                background: transparent;
+                border: none;
+                font-weight: 600;
+                font-size: 0.9rem;
+                cursor: pointer;
+            }
+        }
+
+        .footer-socials {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1.5rem;
+
+            i {
+                cursor: pointer;
+
+                &:hover {
+                    color: #0CC1AE;
+                    transition: all 0.5s;
+                    transform: translateY(-5px);
+                }
+            }
+
+        }
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+
+        .footer-column {
+            h4 {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin-bottom: 0.6rem;
+                    font-size: 14px;
+
+                    a {
+                        text-decoration: none;
+                        color: #555;
+
+                        &:hover {
+                            color: #0CC1AE;
+                            transition: all 0.5s;
+                        }
+                    }
+                }
+            }
+
+            p {
+                font-size: 0.9rem;
+                color: #555;
+                line-height: 1;
+                margin-bottom: 1rem;
+            }
+            .footer-help{
+              p{
+                line-height: 1.4;
+              }
+                p:nth-last-child(1){
+                  margin-top: -10px;
+              
+                }
+                
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        grid-template-columns: 1fr 3fr;
+    }
+
+}
+
+.footer-line {
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid #E6E6E6;
+    width: 100%;
+    margin-bottom: 50px;
+}
