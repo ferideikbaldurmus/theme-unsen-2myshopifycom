@@ -340,14 +340,17 @@ nav .navbar .nav-icons .nav-icons-badge {
 .basic-collection .basic-collection-details .basic-collection-title h1 {
   font-weight: 100;
 }
+.basic-collection .basic-collection-details .basic-collection-title p {
+  text-align: center;
+}
 .basic-collection .play-button {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #F87C8A;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 .basic-collection .play-button:hover {
   background-color: #58B7A3;
@@ -368,6 +371,40 @@ nav .navbar .nav-icons .nav-icons-badge {
 .basic-collection .basic-collection-text {
   position: absolute;
   margin-left: 100px;
+}
+@media (max-width: 768px) {
+  .basic-collection .basic-collection-title h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .basic-collection .basic-collection-title p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .basic-collection .play-button {
+    width: 30px;
+    height: 45px;
+    top: 30%;
+  }
+  .basic-collection .play-button:hover {
+    background-color: #58B7A3;
+  }
+  .basic-collection .basic-collection-text {
+    text-align: center;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+  .basic-collection span {
+    font-size: 12px;
+    width: 130px;
+    height: 30px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+  }
 }
 
 .e-mail-section {
