@@ -415,6 +415,38 @@ nav .navbar .nav-icons .nav-icons-badge {
 }
 .e-mail-section .input-group {
   width: 700px;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  position: relative;
+}
+.e-mail-section .input-group .form-control,
+.e-mail-section .input-group .btn {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+}
+.e-mail-section .input-group .input-wrapper,
+.e-mail-section .input-group .button-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.e-mail-section .input-group .input-line {
+  height: 2px;
+  width: 350px;
+  background-color: black;
+  margin-top: 3px;
+}
+.e-mail-section .input-group .button-line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  margin-top: -10px;
+  margin-left: 70px;
 }
 .e-mail-section .e-mail-details {
   width: 100%;
@@ -422,6 +454,39 @@ nav .navbar .nav-icons .nav-icons-badge {
 .e-mail-section .e-mail-details h1 {
   font-family: "Cormorant", serif;
   font-size: 30px;
+}
+@media (max-width: 768px) {
+  .e-mail-section .e-mail-section {
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .e-mail-section .input-group {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 5px;
+  }
+  .e-mail-section .input-group .input-line {
+    width: 150px;
+  }
+  .e-mail-section .input-group .button-line {
+    width: 70px;
+    margin-left: 55px;
+  }
+  .e-mail-section .input-group .form-control,
+  .e-mail-section .input-group .btn {
+    font-size: 16px;
+  }
+  .e-mail-section .e-mail-details h1 {
+    font-size: 24px;
+  }
+  .e-mail-section .email-title-p {
+    font-size: 14px;
+    width: 250px;
+    text-align: center;
+  }
 }
 
 .insta-section {
