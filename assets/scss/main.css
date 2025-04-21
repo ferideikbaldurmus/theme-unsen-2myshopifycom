@@ -160,6 +160,14 @@ nav .navbar .nav-icons .nav-icons-badge {
   display: inline-block;
 }
 
+.product-cards {
+  margin: 0 16px;
+  padding: 0 16px;
+}
+.product-cards .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .product-cards .custom-banner {
   position: relative;
   display: flex;

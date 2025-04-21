@@ -165,6 +165,14 @@
 }
 
 .product-cards {
+   
+margin: 0 16px;
+padding: 0 16px;
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
     .custom-banner {
         position: relative;
         display: flex;
